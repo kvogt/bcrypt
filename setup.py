@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from __future__ import with_statement
 import sys
 import os
 
@@ -97,6 +98,7 @@ setup(
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
         "Programming Language :: Python :: 2",
+        "Programming Language :: Python :: 2.5",
         "Programming Language :: Python :: 2.6",
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
